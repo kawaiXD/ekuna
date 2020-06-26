@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.btn{
+    padding: 15px 40px;
+    background-color: brown;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.quote{
+    padding: 30px 20%;
+    text-align: center;
+}
+.btn img {
+    /* opacity: 0; */
+    width: 100px;
+    object-fit: cover;
+}
+
+.btn img :hover{
+
+}
